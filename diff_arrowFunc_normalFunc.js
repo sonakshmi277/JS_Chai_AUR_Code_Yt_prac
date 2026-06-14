@@ -6,7 +6,7 @@ f1()
 
 const obj={
     h1:12,
-     fu (){
+    fu (){
         console.log(this.h1)
     }
 }
@@ -20,4 +20,9 @@ const obj2={
 }
 obj2.f()
 
-//"this" refers to object property not to local variable or the object itself 
+//"this" refers to object property not to local variable or the object itself
+
+const hg=()=>{
+    console.log("heya")
+}
+hg()
