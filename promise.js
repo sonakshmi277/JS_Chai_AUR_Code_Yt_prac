@@ -24,3 +24,16 @@ async function consumePromise(ans){
     }
 }
 consumePromise()
+
+
+//usage of async await to fetch data from an API
+async function getInfo(){
+    try{
+        const res=await fetch('https://jsonplaceholder.typicode.com/users')
+        const data=await res.json()
+        console.log(data)
+    }catch(error){
+        console.log(error)
+    }
+}
+getInfo()
