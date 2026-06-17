@@ -3,5 +3,5 @@ body{
 }
 #box{
     color: white;
-    background-color: tomato;
+    width:fit-content;
 }
